@@ -1,43 +1,49 @@
 import React, { useState } from 'react';
 // import logo from './logo.svg';
 import './styling/App.css';
+import {
+  Container,
+  // Row,
+  // Col,
+  // Form,
+  // Input,
+  // Button,
+  // Navbar,
+  // Nav,
+  // NavbarBrand,
+  // NavLink,
+  // NavItem,
+  // UncontrolledDropdown,
+  // DropdownToggle,
+  // DropdownMenu,
+  // DropdownItem,
+} from 'react-bootstrap';
 
 const App = () => {
-  const [breath, setBreath] = useState({
-    inhale: 0,
-    exhale: 0,
-    pauseOne: 0,
-    pauseTwo: 0,
-  });
+  // const [breath, setBreath] = useState({
+  //   inhale: 0,
+  //   exhale: 0,
+  //   pauseOne: 0,
+  //   pauseTwo: 0,
+  // });
 
   return (
     <div className="App">
-      <h1>Breath</h1>
-      <div id="circle">0</div>
+      {/* <Container> */}
+      <h1>Three-Six-Nine Breathing</h1>
+      <div className="container">
+        <span className="circle">{''}</span>
+      </div>
+      {/* </Container> */}
     </div>
   );
 };
 
-// const App = () => {
-//   const [users, setUsers] = useState([]);
-
-//   useEffect(() => {
-//     fetch('/users')
-//       .then((res) => res.json())
-//       .then((users) => setUsers({ users }));
-//   }, []);
-
-//   return (
-//     <div className="App">
-//       <h1>Users</h1>
-//       {users.map((user) => (
-//         <div key={user.id}>{user.username}</div>
-//       ))}
-//     </div>
-//   );
-// };
-
 export default App;
+
+//TODO:
+//set up router and make a navbar and three different links
+//
 
 // return (
 //   <div className="App">

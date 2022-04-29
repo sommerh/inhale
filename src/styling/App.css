@@ -1,6 +1,10 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
+
+/* .h1 {
+  text-align: center;
+} */
 
 /* .App-logo {
   height: 40vmin;
@@ -37,28 +41,54 @@
   }
 } */
 
-#circle {
-  /* width: 50px;
-  height: 50px;
-  background-color: black; */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-#circle {
-  /* animation: 3s ease-in 1s infinite reverse both running slidein; */
+/* Container {
+  border: 2px solid black;
+} */
 
-  animation-duration: 13s;
-  animation-name: bounce;
+.container {
+  width: 1000px;
+  height: 500px;
+  border: 2px dotted black;
+  border-radius: 10px;
+  overflow: auto;
 }
 
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
+.circle {
+  position: relative;
+  display: inline-block;
+  top: 420px;
+  width: 20px;
+  height: 20px;
+  background-color: slategray;
+  border-radius: 50px;
+  transform: translateY(300%) translateX(0vh);
+  animation-name: breath;
+  animation-duration: 18s;
+  animation-iteration-count: 5;
+  animation-direction: initial;
+}
+
+@keyframes breath {
+  16.6% {
+    transform: translateY(-200px) translateX(200px);
+    background-color: darksalmon;
   }
 
-  to {
-    margin-left: 0%;
-    width: 100%;
+  50% {
+    transform: translateY(-200px) translateX(500px);
+    background-color: rgb(128, 240, 175);
+  }
+
+  100% {
+    transform: translateY(60px) translateX(980px);
+    /* bottom: 420px; */
+    background-color: darkcyan;
   }
 }
 
