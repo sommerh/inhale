@@ -24,7 +24,7 @@ const NavBar = () => {
                 <NavDropdown.Item href="/anxious">Anxious</NavDropdown.Item>
                 <NavDropdown.Item href="/tired">Tired</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.3">Sad</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.4">
+                <NavDropdown.Item href="/disconnected">
                   Disconnected
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
