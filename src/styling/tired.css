@@ -1,0 +1,202 @@
+:root {
+  --height: 63vh;
+  --width: 90vw;
+  --neg-height: -63vh;
+  --neg-width: -90vw;
+}
+
+.ball-container {
+  height: var(--height);
+  width: var(--width);
+  margin: 20px;
+  border: 2px dotted lightgrey;
+  overflow: clip;
+  position: relative;
+}
+
+.circle-tired {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: slategray;
+  border-radius: 50px;
+  animation-name: tired;
+  animation-duration: 10s;
+  animation-iteration-count: 5;
+  animation-direction: initial;
+}
+
+@keyframes tired {
+  5% {
+    transform: translateY(calc(var(--neg-height) / 4)) translateX(0);
+    background-color: darksalmon;
+  }
+
+  10% {
+    transform: translateY(var(--neg-height) * 4) translateX(0);
+    background-color: cornflowerblue;
+  }
+
+  15% {
+    transform: translateY(calc(var(--neg-height) / 4)) translateX(0);
+    background-color: darksalmon;
+  }
+  20% {
+    transform: translateY(var(--neg-height) * 4) translateX(0);
+    background-color: cornflowerblue;
+  }
+
+  25% {
+    transform: translateY(calc(var(--neg-height) / 4)) translateX(0);
+    background-color: darksalmon;
+  }
+
+  30% {
+    transform: translateY(var(--neg-height) * 4) translateX(0);
+    background-color: cornflowerblue;
+  }
+
+  35% {
+    transform: translateY(calc(var(--neg-height) / 4)) translateX(0);
+    background-color: darksalmon;
+  }
+
+  40% {
+    transform: translateY(var(--neg-height) * 4) translateX(0);
+    background-color: cornflowerblue;
+  }
+
+  45% {
+    transform: translateY(calc(var(--neg-height) / 4)) translateX(0);
+    background-color: darksalmon;
+  }
+
+  50% {
+    transform: translateY(var(--neg-height) * 4) translateX(0);
+    background-color: cornflowerblue;
+  }
+  55% {
+    transform: translateY(calc(var(--neg-height) / 4)) translateX(0);
+    background-color: darksalmon;
+  }
+
+  60% {
+    transform: translateY(var(--neg-height) * 4) translateX(0);
+    background-color: cornflowerblue;
+  }
+
+  65% {
+    transform: translateY(calc(var(--neg-height) / 4)) translateX(0);
+    background-color: darksalmon;
+  }
+  70% {
+    transform: translateY(var(--neg-height) * 4) translateX(0);
+    background-color: cornflowerblue;
+  }
+
+  75% {
+    transform: translateY(calc(var(--neg-height) / 4)) translateX(0);
+    background-color: darksalmon;
+  }
+
+  80% {
+    transform: translateY(var(--neg-height) * 4) translateX(0);
+    background-color: cornflowerblue;
+  }
+
+  85% {
+    transform: translateY(calc(var(--neg-height) / 4)) translateX(0);
+    background-color: darksalmon;
+  }
+
+  90% {
+    transform: translateY(var(--neg-height) * 4) translateX(0);
+    background-color: cornflowerblue;
+  }
+
+  95% {
+    transform: translateY(calc(var(--neg-height) / 4)) translateX(0);
+    background-color: darksalmon;
+  }
+
+  100% {
+    transform: translateY(var(--neg-height) * 4) translateX(0);
+    background-color: cornflowerblue;
+  }
+}
+
+/*
+@keyframes tired {
+  10% {
+    transform: translateY(calc(var(--neg-height) / 4))
+      translateX(calc(var(--width) / 20));
+    background-color: darksalmon;
+  }
+
+  20% {
+    transform: translateY(var(--neg-height) * 4) translateX(var(--neg-width));
+    background-color: khaki;
+  }
+
+  30% {
+    transform: translateY(0) translateX(calc(var(--width) * 0.978));
+    background-color: cornflowerblue;
+  }
+  40% {
+    transform: translateY(calc(var(--neg-height) / 2))
+      translateX(calc(var(--width) / 2));
+    background-color: khaki;
+  }
+
+  50% {
+    transform: translateY(calc(var(--neg-height) / 2))
+      translateX(calc(var(--width) / 2));
+    background-color: khaki;
+  }
+
+  60% {
+    transform: translateY(0) translateX(calc(var(--width) * 0.978));
+    background-color: cornflowerblue;
+  }
+
+  70% {
+    transform: translateY(0) translateX(calc(var(--width) * 0.978));
+    background-color: cornflowerblue;
+  }
+
+  80% {
+    transform: translateY(0) translateX(calc(var(--width) * 0.978));
+    background-color: cornflowerblue;
+  }
+
+  90% {
+    transform: translateY(0) translateX(calc(var(--width) * 0.978));
+    background-color: cornflowerblue;
+  }
+
+  100% {
+    transform: translateY(0) translateX(calc(var(--width) * 0.978));
+    background-color: cornflowerblue;
+  }
+} */
+/* @keyframes tired {
+  16.6% {
+    transform: translateY(calc(var(--neg-height) / 4))
+      translateX(calc(var(--width) / 4));
+    background-color: darksalmon;
+  }
+
+  50% {
+    transform: translateY(calc(var(--neg-height) / 2))
+      translateX(calc(var(--width) / 2));
+    background-color: khaki;
+  }
+
+  100% {
+    transform: translateY(0) translateX(calc(var(--width) * 0.978));
+    background-color: cornflowerblue;
+  }
+} */

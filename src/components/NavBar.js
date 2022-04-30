@@ -10,7 +10,7 @@ const NavBar = () => {
   return (
     <>
       <Container>
-        <Navbar bg="light" variant="light" expand="lg">
+        <Navbar className="navbar-custom" variant="light">
           <LinkContainer to="/">
             <Navbar.Brand>Inhale</Navbar.Brand>
           </LinkContainer>
@@ -22,7 +22,7 @@ const NavBar = () => {
               {/* </LinkContainer> */}
               <NavDropdown title="How are you feeling?" id="basic-nav-dropdown">
                 <NavDropdown.Item href="/anxious">Anxious</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Tired</NavDropdown.Item>
+                <NavDropdown.Item href="/tired">Tired</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.3">Sad</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.4">
                   Disconnected

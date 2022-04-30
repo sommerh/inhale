@@ -4,7 +4,7 @@ import '../styling/threeSixNine.css';
 const ThreeSixNine = () => {
   return (
     <div className="ball-container">
-      <span className="circle">{''}</span>
+      <span className="circle-anxious">{''}</span>
     </div>
   );
 };

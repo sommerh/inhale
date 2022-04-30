@@ -1,7 +1,8 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import ThreeSixNine from './ThreeSixNine';
 import Home from './Home';
+import ThreeSixNine from './ThreeSixNine';
+import Tired from './Tired';
 
 const AllRoutes = () => {
   return (
@@ -9,6 +10,7 @@ const AllRoutes = () => {
       <Routes>
         <Route path="/" element={<Home />} exact />
         <Route path="/anxious" element={<ThreeSixNine />} />
+        <Route path="/tired" element={<Tired />} />
       </Routes>
     </div>
   );
