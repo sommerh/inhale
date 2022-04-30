@@ -50,7 +50,7 @@
 /* Container {
   border: 2px solid black;
 } */
-
+/*
 .container {
   width: 1000px;
   height: 500px;
@@ -87,9 +87,8 @@
 
   100% {
     transform: translateY(60px) translateX(980px);
-    /* bottom: 420px; */
     background-color: darkcyan;
   }
-}
+} */
 
 /* if animation slides off screen, make container around the element and set overflow: hidden on the container */
