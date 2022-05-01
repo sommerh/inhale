@@ -34,10 +34,9 @@ const ThreeSixNine = (props) => {
     setSeconds(duration);
   }, [duration]);
 
-  const handleClick = (evt) => {
+  const handleSubmit = (evt) => {
     evt.preventDefault();
     dispatch(changeDuration(seconds));
-    console.log(seconds);
   };
 
   return (
@@ -49,7 +48,7 @@ const ThreeSixNine = (props) => {
       </div>
       <p className="info">::Description of this breath goes here::</p>
       <p className="info">::Benefits of breath go here</p>
-      <form onClick={handleClick}>
+      <form onSubmit={handleSubmit}>
         <div className="form-group col-sm-2">
           <label>Duration (in seconds):</label>
           <input
@@ -60,7 +59,7 @@ const ThreeSixNine = (props) => {
             onChange={(e) => setSeconds(e.target.value)}
           />
         </div>
-        <button type="button" className="btn btn-outline-secondary">
+        <button type="submit" className="btn btn-outline-secondary">
           Edit
         </button>
       </form>
