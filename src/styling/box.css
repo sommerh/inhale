@@ -17,7 +17,7 @@
 .circle-box {
   position: absolute;
   bottom: 5%;
-  left: 25%;
+  left: 32%;
   display: inline-block;
   width: 20px;
   height: 20px;
@@ -25,7 +25,7 @@
   border-radius: 50px;
   animation-name: box;
   animation-duration: 20s;
-  animation-iteration-count: 5;
+  animation-iteration-count: 10;
   animation-direction: initial;
 }
 
@@ -36,12 +36,12 @@
   }
   50% {
     transform: translateY(calc(var(--neg-height) / 1.2))
-      translateX(calc((var(--width) / 4) * 2));
+      translateX(calc((var(--width) / 7) * 2));
     background-color: khaki;
   }
   75% {
-    transform: translateY(calc(var(--height) / 200))
-      translateX(calc((var(--width) / 4) * 2));
+    transform: translateY(calc(var(--neg-height) / 200))
+      translateX(calc((var(--width) / 7) * 2));
     background-color: cornflowerblue;
   }
   100% {
