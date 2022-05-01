@@ -11,10 +11,10 @@ const AllRoutes = () => {
     <div>
       <Routes>
         <Route path="/" element={<Home />} exact />
-        <Route path="/anxious" element={<ThreeSixNine />} />
-        <Route path="/tired" element={<Tired />} />
-        <Route path="/frustrated" element={<Box />} />
-        <Route path="/disconnected" element={<Disconnected />} />
+        <Route path="/strategies/three-six-nine" element={<ThreeSixNine />} />
+        <Route path="/strategies/tired" element={<Tired />} />
+        <Route path="/strategies/frustrated" element={<Box />} />
+        <Route path="/strategies/disconnected" element={<Disconnected />} />
       </Routes>
     </div>
   );

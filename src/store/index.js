@@ -1,9 +1,9 @@
 import { createStore, combineReducers, applyMiddleware } from 'redux';
 import { createLogger } from 'redux-logger';
 import thunkMiddleware from 'redux-thunk';
-import breath from './breath';
+import duration from './breath';
 
-const reducer = combineReducers({ breath });
+const reducer = combineReducers({ duration });
 
 const store = createStore(
   reducer,

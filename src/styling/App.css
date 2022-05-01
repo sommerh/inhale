@@ -45,6 +45,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0px 10px 100px 10px;
 }
 
 /* Container {

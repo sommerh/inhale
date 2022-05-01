@@ -14,7 +14,20 @@
   position: relative;
 }
 
-.circle-anxious {
+.info {
+  margin-left: 20px;
+}
+
+form {
+  margin-left: 20px;
+}
+
+.btn {
+  margin-top: 10px;
+  /* border: 1px solid lightgrey; */
+}
+
+/* .circle-anxious {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -27,7 +40,7 @@
   animation-duration: 18s;
   animation-iteration-count: 5;
   animation-direction: initial;
-}
+} */
 
 @keyframes anxious {
   16.6% {

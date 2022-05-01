@@ -21,12 +21,16 @@ const NavBar = () => {
               {/* <Nav.Link>three-six-nine</Nav.Link> */}
               {/* </LinkContainer> */}
               <NavDropdown title="How are you feeling?" id="basic-nav-dropdown">
-                <NavDropdown.Item href="/anxious">Anxious</NavDropdown.Item>
-                <NavDropdown.Item href="/tired">Tired</NavDropdown.Item>
-                <NavDropdown.Item href="/frustrated">
+                <NavDropdown.Item href="/strategies/three-six-nine">
+                  Anxious
+                </NavDropdown.Item>
+                <NavDropdown.Item href="/strategies/tired">
+                  Tired
+                </NavDropdown.Item>
+                <NavDropdown.Item href="/strategies/frustrated">
                   Frustrated
                 </NavDropdown.Item>
-                <NavDropdown.Item href="/disconnected">
+                <NavDropdown.Item href="/strategies/disconnected">
                   Disconnected
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
