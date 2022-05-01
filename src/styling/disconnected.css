@@ -45,7 +45,6 @@
 
 @media only screen and (max-width: 904px) {
   .disconnected {
-    /* background-color: aquamarine; */
     max-height: 100vh;
   }
 
