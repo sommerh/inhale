@@ -1,6 +1,6 @@
 .ball-container {
   height: var(--height);
-  width: var(--width);
+  max-width: var(--width);
   margin: 20px;
   border: 2px dotted lightgrey;
   overflow: clip;
@@ -9,18 +9,42 @@
 
 .disconnected {
   display: flex;
+  background-color: rgb(255, 251, 247);
   flex-direction: row;
   justify-content: space-around;
-  align-items: space-around;
+  align-items: center;
+  max-width: var(--width);
+  height: var(--height);
+  flex-wrap: wrap;
 }
 
 .sense {
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* align-content: center; */
 }
 
-img {
-  width: 50px;
-  height: 50px;
+.sense > p:last-child {
+  overflow-wrap: break-word;
+  width: 142px;
+  text-align: center;
+}
+
+.number {
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.sense > img {
+  mix-blend-mode: multiply;
+  width: 100px;
+  height: 100px;
+}
+
+@media only screen and (max-width: 751px) {
+  .disconnected {
+    /* background-color: aquamarine; */
+    max-height: 100vh;
+  }
 }

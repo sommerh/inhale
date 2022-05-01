@@ -6,24 +6,29 @@ const Disconnected = () => {
     <div className="ball-container">
       <div className="disconnected">
         <div className="sense">
-          <img src="https://cdn4.vectorstock.com/i/1000x1000/76/08/human-hand-palm-icon-vector-28167608.jpg" />
-          <p>Name 5 things you can see</p>
+          <img src="eye.jpeg" />
+          <p className="number"> 5 </p>
+          <p> things you can see</p>
         </div>
         <div className="sense">
-          <img src="https://cdn4.vectorstock.com/i/1000x1000/76/08/human-hand-palm-icon-vector-28167608.jpg" />
-          <p>Name 4 things you can feel</p>
+          <img src="hand.jpeg" />
+          <p className="number"> 4 </p>
+          <p>things you can feel</p>
         </div>
         <div className="sense">
-          <img src="https://cdn4.vectorstock.com/i/1000x1000/76/08/human-hand-palm-icon-vector-28167608.jpg" />
-          <p>Name 3 things you can hear</p>
+          <img src="ear.jpeg" />
+          <p className="number"> 3 </p>
+          <p>things you can hear</p>
         </div>
         <div className="sense">
-          <img src="https://cdn4.vectorstock.com/i/1000x1000/76/08/human-hand-palm-icon-vector-28167608.jpg" />
-          <p>Name 2 things you smell/taste</p>
+          <img src="nose.png" />
+          <p className="number"> 2 </p>
+          <p>things you can smell/taste</p>
         </div>
         <div className="sense">
-          <img src="https://cdn4.vectorstock.com/i/1000x1000/76/08/human-hand-palm-icon-vector-28167608.jpg" />
-          <p>Name 1 things you like about yourself</p>
+          <img src="heart2.jpeg" />
+          <p className="number"> 1 </p>
+          <p>thing you like about yourself</p>
         </div>
       </div>
     </div>
