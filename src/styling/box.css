@@ -1,0 +1,50 @@
+:root {
+  --height: 63vh;
+  --width: 90vw;
+  --neg-height: -63vh;
+  --neg-width: -90vw;
+}
+
+.ball-container {
+  height: var(--height);
+  width: var(--width);
+  margin: 20px;
+  border: 2px dotted lightgrey;
+  overflow: clip;
+  position: relative;
+}
+
+.circle-box {
+  position: absolute;
+  bottom: 5%;
+  left: 25%;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: khaki;
+  border-radius: 50px;
+  animation-name: box;
+  animation-duration: 20s;
+  animation-iteration-count: 5;
+  animation-direction: initial;
+}
+
+@keyframes box {
+  25% {
+    transform: translateY(calc(var(--neg-height) / 1.2));
+    background-color: darksalmon;
+  }
+  50% {
+    transform: translateY(calc(var(--neg-height) / 1.2))
+      translateX(calc((var(--width) / 4) * 2));
+    background-color: khaki;
+  }
+  75% {
+    transform: translateY(calc(var(--height) / 200))
+      translateX(calc((var(--width) / 4) * 2));
+    background-color: cornflowerblue;
+  }
+  100% {
+    background-color: khaki;
+  }
+}

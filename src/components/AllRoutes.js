@@ -4,6 +4,7 @@ import Home from './Home';
 import ThreeSixNine from './ThreeSixNine';
 import Tired from './Tired';
 import Disconnected from './Disconnected';
+import Box from './Box';
 
 const AllRoutes = () => {
   return (
@@ -12,6 +13,7 @@ const AllRoutes = () => {
         <Route path="/" element={<Home />} exact />
         <Route path="/anxious" element={<ThreeSixNine />} />
         <Route path="/tired" element={<Tired />} />
+        <Route path="/frustrated" element={<Box />} />
         <Route path="/disconnected" element={<Disconnected />} />
       </Routes>
     </div>
