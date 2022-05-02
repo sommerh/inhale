@@ -24,8 +24,6 @@ export const _getDuration = (name) => {
   };
 };
 
-// const _changeDuration = () =>
-
 export default function breathReducer(duration = 0, action) {
   switch (action.type) {
     case GET_DURATION:
