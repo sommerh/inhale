@@ -13,7 +13,7 @@ const App = () => {
   //   pauseOne: 0,
   //   pauseTwo: 0,
   // });
-  const [showComponent, setShowComponent] = useState(false);
+  // const [showComponent, setShowComponent] = useState(false);
 
   return (
     <div className="App">

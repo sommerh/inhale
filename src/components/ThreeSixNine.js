@@ -5,7 +5,7 @@ import '../styling/threeSixNine.css';
 import { changeDuration, _getDuration } from '../store/breath';
 // import Form from 'react-bootstrap/Form';
 
-const StyledCircle = styled.span`
+const AnxiousCircle = styled.span`
   position: absolute;
   bottom: 0;
   left: 0;
@@ -42,9 +42,9 @@ const ThreeSixNine = (props) => {
   return (
     <>
       <div className="ball-container">
-        <StyledCircle duration={duration} className="circle-anxious">
+        <AnxiousCircle duration={duration} className="circle-anxious">
           {''}
-        </StyledCircle>
+        </AnxiousCircle>
       </div>
       <p className="info">::Description of this breath goes here::</p>
       <p className="info">::Benefits of breath go here</p>

@@ -24,9 +24,9 @@ form {
 
 .btn {
   margin-top: 10px;
-  /* border: 1px solid lightgrey; */
 }
 
+/*This is now in the ThreeSixNine componenet as a styled component*/
 /* .circle-anxious {
   position: absolute;
   bottom: 0;
