@@ -14,10 +14,10 @@
   position: relative;
 }
 
-/*this is now a styled componenet on the Tired component.
-NOTE: the writing below the breathing box is styled by the threeSixNine.css file
+/* NOTE: the writing below the breathing box is styled by the threeSixNine.css file
 */
 
+/*this is now a styled componenet on the Tired component. */
 /* .circle-tired {
   position: absolute;
   bottom: 50%;

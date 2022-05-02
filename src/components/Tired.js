@@ -27,6 +27,7 @@ const Tired = () => {
   useEffect(() => {
     dispatch(_getDuration('tired'));
   }, []);
+  //the dependancy array above is throwing a warning in linter but it has to be there
 
   useEffect(() => {
     setSeconds(duration);

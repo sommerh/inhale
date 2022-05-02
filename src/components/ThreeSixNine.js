@@ -20,7 +20,7 @@ const AnxiousCircle = styled.span`
   animation-direction: initial;
 `;
 
-const ThreeSixNine = (props) => {
+const ThreeSixNine = () => {
   const dispatch = useDispatch();
   const duration = useSelector((state) => state.duration);
   const [seconds, setSeconds] = useState(0);

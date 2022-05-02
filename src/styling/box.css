@@ -14,7 +14,11 @@
   position: relative;
 }
 
-.circle-box {
+/* NOTE: the writing below the breathing box is styled by the threeSixNine.css file
+*/
+
+/*this is now a styled componenet on the Box component. */
+/* .circle-box {
   position: absolute;
   bottom: 5%;
   left: 32%;
@@ -27,7 +31,7 @@
   animation-duration: 20s;
   animation-iteration-count: 10;
   animation-direction: initial;
-}
+} */
 
 @keyframes box {
   25% {
